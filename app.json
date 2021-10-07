@@ -15,7 +15,9 @@
       "value": ""
     }
   },
-  "buildpacks": [{
-    "url": "https://github.com/heroku/heroku-buildpack-python.git"
-  }]
+   "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
 }
