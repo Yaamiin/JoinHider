@@ -13,15 +13,6 @@ bot = Client(
             api_id=API_ID
     )
 
-@bot.on(events.NewMessage(pattern="^/start$"))
-async def start(event):
-  await event.reply("**Im JoinHider**,\n\nAdd me as an admin your group. Made In India 🇮🇳",
-                    buttons=(
-                      [Button.url('Add Me', 'https://t.me/JOlNHlDERBOT?startgroup=true'),
-                      Button.url('📜 Source', 'https://github.com/TechnicalHunter/JoinHider/tree/Tanaji')]
-                    ),
-                    link_preview=False
-                   )
 
 @bot.on_message(filters.new_chat_members)
 async def welcome(bot,message):
