@@ -12,4 +12,4 @@
 - API_HASH
 - BOT_TOKEN
 
-## CREDITS
+
