@@ -1,25 +1,21 @@
 {
-    "name": "JoinHider",
-    "description": "A telegram bot for hide meber joined messgae.",
-    "repository": "https://github.com/TechnicalHunter/JoinHider",
-    "keywords": [
-        "telegram bot",
-        "pyrogram"
-    ],
-    "env": {
-        "BOT_TOKEN": {
-            "description": "Your Bot token from @Botfather"
-        },
-        "API_ID": {
-            "description": "Your API_ID from https://my.telegram.org/apps"
-        },
-        "API_HASH": {
-            "description": "Your API_HASH from https://my.telegram.org/apps"
-        }
+  "name": "Join Hider",
+  "description": "A join hider bot.",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Enter bot token.",
+      "value": ""
     },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ]
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal.",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal.",
+      "value": ""
+    }
+  },
+  "buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-python.git"
+  }]
 }
