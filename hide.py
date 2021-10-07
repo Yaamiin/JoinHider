@@ -2,13 +2,16 @@ import os
 from pyrogram import Client, filters
 from pyrogram.types import Message, User
 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
-bot = Client(
-    "Join Hider",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"]
-)
+API_ID = int(os.environ.get("API_ID", 12345))
+
+API_HASH = os.environ.get("API_HASH", "")
+app = Client(
+        "hide",
+        bot_token=BOT_TOKEN,api_hash=API_HASH,
+            api_id=API_ID
+    )
 
 @bot.on_message(filters.new_chat_members)
 async def welcome(bot,message):
