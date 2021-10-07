@@ -15,7 +15,7 @@ bot = Client(
 
 @bot.on_message(filters.command('start'))
 async def start(bot, message):
-	text = 'Hey'
+	text = 'Hey, Im a Join Hider Bot'
 	await message.reply(text, quote=True)
 
 @bot.on_message(filters.new_chat_members)
