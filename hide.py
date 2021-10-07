@@ -1,6 +1,6 @@
 import os
 from pyrogram import Client, filters
-from pyrogram.types import Message, User, Buttons
+from pyrogram.types import Message, User
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
