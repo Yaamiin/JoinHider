@@ -1,7 +1,7 @@
 import os
 from pyrogram import Client, filters
 from pyrogram.types import Message, User
-from pyrogram import Button
+from telethon import Button
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
