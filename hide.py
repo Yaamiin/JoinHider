@@ -11,16 +11,12 @@ bot = Client(
 
 @bot.on_message(filters.new_chat_members)
 async def welcome(bot,message):
-	try:		
-                await message.delete()	
-        except:		
-                return
+	await message.delete()	
 	
 @bot.on_message(filters.left_chat_member)
 async def goodbye(bot,message):
-	try:		
-                await message.delete()	
-        except:		
-                return
+	await message.delete()	
+
+
 	
 bot.run()
