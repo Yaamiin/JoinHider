@@ -1,6 +1,6 @@
 {
   "name": "Join Hider",
-  "logo": ""
+  "logo": "https://telegra.ph/file/db0bc9527e42a73101527.jpg",
   "description": "A join hider bot.",
   "env": {
     "BOT_TOKEN": {
