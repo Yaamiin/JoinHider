@@ -1,5 +1,6 @@
 {
   "name": "Join Hider",
+  "logo": ""
   "description": "A join hider bot.",
   "env": {
     "BOT_TOKEN": {
