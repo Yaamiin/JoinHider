@@ -1,6 +1,6 @@
 ## JoinHider
 
-![logo](https://telegra.ph/file/db0bc9527e42a73101527.jpg)
+![logo](https://telegra.ph/file/618a1a11f70ec0a3d137d.jpg)
 
 ## Deploy
 
