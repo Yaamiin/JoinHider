@@ -26,8 +26,6 @@ async def welcome(bot, message):
 async def goodbye(bot, message):
 	await message.delete()	
 
-@bot.on_message(filters.member_invited)
-async def welcome(bot, message):
-        await message.delete()
+
 	
 bot.run()
